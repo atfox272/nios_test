@@ -1,0 +1,41 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate L:\Projects\nios_test\nios_test.qsys --block-symbol-file --output-directory=L:\Projects\nios_test\nios_test --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading nios_test/nios_test.qsys
+Progress: Reading input file
+Progress: Adding intel_niosv_m_0 [intel_niosv_m 1.0.0]
+Progress: Parameterizing module intel_niosv_m_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate L:\Projects\nios_test\nios_test.qsys --synthesis=VERILOG --output-directory=L:\Projects\nios_test\nios_test\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading nios_test/nios_test.qsys
+Progress: Reading input file
+Progress: Adding intel_niosv_m_0 [intel_niosv_m 1.0.0]
+Progress: Parameterizing module intel_niosv_m_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: nios_test: Generating nios_test "nios_test" for QUARTUS_SYNTH
+Info: intel_niosv_m_0: "nios_test" instantiated intel_niosv_m "intel_niosv_m_0"
+Info: hart: "intel_niosv_m_0" instantiated intel_niosv_m_unit "hart"
+Info: timer_module: "intel_niosv_m_0" instantiated intel_niosv_timer_msip "timer_module"
+Info: dbg_mod: "intel_niosv_m_0" instantiated intel_niosv_m_dbg_mod "dbg_mod"
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_synchronizer.v
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_controller.v
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_controller.sdc
+Info: irq_mapper: "intel_niosv_m_0" instantiated altera_irq_mapper "irq_mapper"
+Info: nios_test: Done "nios_test" with 6 modules, 32 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

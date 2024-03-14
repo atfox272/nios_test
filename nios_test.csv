@@ -1,0 +1,36 @@
+# system info nios_test on 2024.03.15.01:50:36
+system_info:
+name,value
+DEVICE,5CSXFC6D6F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1710442233
+#
+#
+# Files generated for nios_test on 2024.03.15.01:50:36
+files:
+filepath,kind,attributes,module,is_top
+simulation/nios_test.v,VERILOG,,nios_test,true
+simulation/submodules/nios_test_intel_niosv_m_0.v,VERILOG,,nios_test_intel_niosv_m_0,false
+simulation/submodules/aldec/opcode_def.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/alu.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/instr_decoder.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/lsu.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/nios_top.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/reg_file.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/csr.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/interrupt_handler.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/shift_module.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/mult_module.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/instr_prefetch.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+simulation/submodules/aldec/instruction_buffer.sv,SYSTEM_VERILOG,ALDEC_SPECIFIC,nios_top,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+nios_test.intel_niosv_m_0,nios_test_intel_niosv_m_0
+nios_test.intel_niosv_m_0.hart,nios_top
+nios_test.intel_niosv_m_0.timer_module,timer_msip
+nios_test.intel_niosv_m_0.dbg_mod,dm_top
+nios_test.intel_niosv_m_0.irq_mapper,nios_test_intel_niosv_m_0_irq_mapper
+nios_test.intel_niosv_m_0.irq_mapper_001,nios_test_intel_niosv_m_0_irq_mapper
+nios_test.intel_niosv_m_0.irq_mapper_002,nios_test_intel_niosv_m_0_irq_mapper

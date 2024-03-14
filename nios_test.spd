@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/aldec/opcode_def.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/alu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/instr_decoder.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/lsu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/nios_top.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/reg_file.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/csr.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/interrupt_handler.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/shift_module.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/mult_module.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/instr_prefetch.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/instruction_buffer.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/nios_test_intel_niosv_m_0.v"
+   type="VERILOG"
+   library="intel_niosv_m_0" />
+ <file path="simulation/nios_test.v" type="VERILOG" />
+ <topLevel name="nios_test" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

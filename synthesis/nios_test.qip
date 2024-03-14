@@ -1,0 +1,140 @@
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_TOOL_VERSION "22.1"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "nios_test" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../nios_test.sopcinfo"]
+set_global_assignment -entity "nios_test" -library "nios_test" -name SLD_INFO "QSYS_NAME nios_test HAS_SOPCINFO 1 GENERATION_ID 1710442286"
+set_global_assignment -library "nios_test" -name MISC_FILE [file join $::quartus(qip_path) "../nios_test.cmp"]
+set_global_assignment -library "nios_test" -name SLD_FILE [file join $::quartus(qip_path) "nios_test.debuginfo"]
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "nios_test" -name MISC_FILE [file join $::quartus(qip_path) "../../nios_test.qsys"]
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_NAME "bmlvc190ZXN0"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "bmlvc190ZXN0"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcxMDQ0MjI4Ng==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTWEZDNkQ2RjMxQzY=::QXV0byBERVZJQ0U="
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nl9INg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19EQVRBX01BTkFHRVJfQUREUkVTU19XSURUSA==::QWRkcmVzc1dpZHRoID0gLTE=::QXV0byBBRERSRVNTX1dJRFRI"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19JTlNUUlVDVElPTl9NQU5BR0VSX0FERFJFU1NfV0lEVEg=::QWRkcmVzc1dpZHRoID0gLTE=::QXV0byBBRERSRVNTX1dJRFRI"
+set_global_assignment -entity "nios_test" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19QTEFURk9STV9JUlFfUlhfSU5URVJSVVBUU19VU0VE::LTE=::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_NAME "bmlvc190ZXN0X2ludGVsX25pb3N2X21fMA=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBWL20gUHJvY2Vzc29yIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_VERSION "MS4wLjA="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_DESCRIPTION "TmlvcyBWL20gaXMgYSBtaWNyb2NvbnRyb2xsZXIgY29yZSBiYXNlZCBvbiB0aGUgUklTQy1WIFJWMzJJQSBjbGFzc2lmaWNhdGlvbg=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "Y2xvY2tGcmVxdWVuY3k=::MA==::Y2xvY2tGcmVxdWVuY3k="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "ZW5hYmxlRGVidWc=::dHJ1ZQ==::RW5hYmxlIERlYnVn"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "ZW5hYmxlRGVidWdSZXNldA==::ZmFsc2U=::RW5hYmxlIFJlc2V0IGZyb20gRGVidWcgTW9kdWxl"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "dXNlUmVzZXRSZXE=::ZmFsc2U=::QWRkIFJlc2V0IFJlcXVlc3QgSW50ZXJmYWNl"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "cmVzZXRTbGF2ZQ==::QWJzb2x1dGU=::UmVzZXQgQWdlbnQ="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "cmVzZXRPZmZzZXQ=::MA==::UmVzZXQgT2Zmc2V0"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "ZGV2aWNlRmFtaWx5::Q3ljbG9uZSBW::ZGV2aWNlRmFtaWx5"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTWEZDNkQ2RjMxQzY=::QXV0byBERVZJQ0U="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nl9INg==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::MQ==::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::MQ==::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19QTEFURk9STV9JUlFfUlhfSU5URVJSVVBUU19VU0VE::LTE=::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19JTlNUUlVDVElPTl9NQU5BR0VSX0FERFJFU1NfV0lEVEg=::QWRkcmVzc1dpZHRoID0gLTE=::QXV0byBBRERSRVNTX1dJRFRI"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19EQVRBX01BTkFHRVJfQUREUkVTU19XSURUSA==::QWRkcmVzc1dpZHRoID0gLTE=::QXV0byBBRERSRVNTX1dJRFRI"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_NAME "bmlvc190ZXN0X2ludGVsX25pb3N2X21fMF9pcnFfbWFwcGVy"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIElSUSBNYXBwZXI="
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_VERSION "MjIuMQ=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_DESCRIPTION "Q29udmVydHMgaW5kaXZpZHVhbCBpbnRlcnJ1cHQgd2lyZXMgdG8gYSBidXMuIEJ5IGRlZmF1bHQsIHRoZSBpbnRlcnJ1cHQgc2VuZGVyIGNvbm5lY3RlZCB0byB0aGUgcmVjZWl2ZXIwIGludGVyZmFjZSBvZiB0aGUgSVJRIG1hcHBlciBpcyB0aGUgaGlnaGVzdCBwcmlvcml0eSB3aXRoIHNlcXVlbnRpYWwgcmVjZWl2ZXJzIGJlaWluZyBzdWNjZXNzaXZlbHkgbG93ZXIgcHJpb3JpdHku"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_PARAMETER "TlVNX1JDVlJT::MQ==::TnVtYmVyIG9mIHJlY2VpdmVycw=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_PARAMETER "U0VOREVSX0lSUV9XSURUSA==::MQ==::U2VuZGVyIGludGVycnVwdCB3aWR0aA=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_PARAMETER "SVJRX01BUA==::MDow::SVJRIG1hcA=="
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_NAME "ZG1fdG9w"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBWL20gRGVidWcgbW9kdWxlIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_VERSION "MS4wLjA="
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_DESCRIPTION "VGhpcyBtb2R1bGUgaG91c2VzIGRlYnVnIG1vZHVsZSBmb3IgdGhlIE5pb3MgVi9tIFByb2Nlc3Nvci4="
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "REVCVUdfUkVTRVRfRU4=::MA==::REVCVUdfUkVTRVRfRU4="
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_NAME "dGltZXJfbXNpcA=="
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBWL20gVGltZXIgYW5kIFNvZnR3YXJlIEludGVycnVwdCBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_VERSION "MS4wLjA="
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_COMPONENT_DESCRIPTION "VGhpcyBtb2R1bGUgaG91c2VzIHRpbWVyIGFuZCBzb2Z0d2FyZSBpbnRlcnJ1cHQgZ2VuZXJhdG9ycyBmb3IgdGhlIE5pb3MgVi9tIFByb2Nlc3Nvci4="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_NAME "bmlvc190b3A="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBWL20gUHJvY2Vzc29yIEhBUlQgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_VERSION "MjEuNC4w"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "UkVTRVRfVkVDVE9S::MA==::UkVTRVRfVkVDVE9S"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "REJHX0VYUE5fVkVDVE9S::LTE=::REJHX0VYUE5fVkVDVE9S"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "Q09SRV9FWFRO::MjU3::Q09SRV9FWFRO"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "REVCVUdfRU5BQkxFRA==::MQ==::REVCVUdfRU5BQkxFRA=="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "REVWSUNFX0ZBTUlMWQ==::Q3ljbG9uZSBW::REVWSUNFX0ZBTUlMWQ=="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "VVNFX1JFU0VUX1JFUQ==::MA==::VVNFX1JFU0VUX1JFUQ=="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19QTEFURk9STV9JUlFfUlhfSU5URVJSVVBUU19VU0VE::MA==::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19ERUJVR19JUlFfUlhfSU5URVJSVVBUU19VU0VE::MQ==::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19FWFRfSVJRX1JYX0lOVEVSUlVQVFNfVVNFRA==::LTE=::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19USU1FUl9JUlFfUlhfSU5URVJSVVBUU19VU0VE::MQ==::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_COMPONENT_PARAMETER "QVVUT19TV19JUlFfUlhfSU5URVJSVVBUU19VU0VE::MQ==::QXV0byBJTlRFUlJVUFRTX1VTRUQ="
+
+set_global_assignment -library "nios_test" -name VERILOG_FILE [file join $::quartus(qip_path) "nios_test.v"]
+set_global_assignment -library "nios_test" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/nios_test_intel_niosv_m_0.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios_test_intel_niosv_m_0_irq_mapper.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/dm_def.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/dm_jtag2mm.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/dm_top.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/debug_module.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/debug_rom.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_std_synchronizer_bundle.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_std_synchronizer.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_clock_crosser.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_handshake_clock_crosser.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_stage.sv"]
+set_global_assignment -library "nios_test" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_handshake_clock_crosser.sdc"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "nios_test" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/timer_msip.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/opcode_def.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/alu.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/instr_decoder.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/lsu.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios_top.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/reg_file.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/csr.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/interrupt_handler.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/shift_module.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/mult_module.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/instr_prefetch.sv"]
+set_global_assignment -library "nios_test" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/instruction_buffer.sv"]
+
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_TOOL_NAME "intel_niosv_m"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_TOOL_VERSION "1.0.0"
+set_global_assignment -entity "nios_test_intel_niosv_m_0" -library "nios_test" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_TOOL_VERSION "22.1"
+set_global_assignment -entity "nios_test_intel_niosv_m_0_irq_mapper" -library "nios_test" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_TOOL_NAME "intel_niosv_m_dbg_mod"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_TOOL_VERSION "1.0.0"
+set_global_assignment -entity "dm_top" -library "nios_test" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_TOOL_NAME "intel_niosv_timer_msip"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_TOOL_VERSION "1.0.0"
+set_global_assignment -entity "timer_msip" -library "nios_test" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_TOOL_NAME "intel_niosv_m_unit"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_TOOL_VERSION "21.4.0"
+set_global_assignment -entity "nios_top" -library "nios_test" -name IP_TOOL_ENV "Qsys"

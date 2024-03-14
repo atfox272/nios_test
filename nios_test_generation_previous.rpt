@@ -1,0 +1,72 @@
+Info: Starting: Create simulation model
+Info: qsys-generate L:\Projects\nios_test\nios_test.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=L:\Projects\nios_test\nios_test\simulation --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading nios_test/nios_test.qsys
+Progress: Reading input file
+Progress: Adding intel_niosv_m_0 [intel_niosv_m 1.0.0]
+Progress: Parameterizing module intel_niosv_m_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: nios_test: Generating nios_test "nios_test" for SIM_VERILOG
+Info: intel_niosv_m_0: "nios_test" instantiated intel_niosv_m "intel_niosv_m_0"
+Error: add_fileset_file: No such file L:/application/intelfpga_lite/ip/altera/soft_processor/intel_niosv_m/cadence/opcode_def.sv     while executing "add_fileset_file $current_sim/opcode_def.sv            SYSTEM_VERILOG PATH $current_sim/opcode_def.sv $attr"     (procedure "fileset_callback_impl" line 24)     invoked from within "fileset_callback_impl sim"     (procedure "sim_callback" line 2)     invoked from within "sim_callback nios_top"
+Info: hart: "intel_niosv_m_0" instantiated intel_niosv_m_unit "hart"
+Error: Generation stopped, 5 or more modules remaining
+Info: nios_test: Done "nios_test" with 6 modules, 14 files
+Error: qsys-generate failed with exit code 1: 2 Errors, 3 Warnings
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=L:\Projects\nios_test\nios_test\nios_test.spd --output-directory=L:/Projects/nios_test/nios_test/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=L:\Projects\nios_test\nios_test\nios_test.spd --output-directory=L:/Projects/nios_test/nios_test/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in L:/Projects/nios_test/nios_test/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for RIVIERA simulator in L:/Projects/nios_test/nios_test/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under L:/Projects/nios_test/nios_test/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate L:\Projects\nios_test\nios_test.qsys --block-symbol-file --output-directory=L:\Projects\nios_test\nios_test --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading nios_test/nios_test.qsys
+Progress: Reading input file
+Progress: Adding intel_niosv_m_0 [intel_niosv_m 1.0.0]
+Progress: Parameterizing module intel_niosv_m_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate L:\Projects\nios_test\nios_test.qsys --synthesis=VERILOG --output-directory=L:\Projects\nios_test\nios_test\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading nios_test/nios_test.qsys
+Progress: Reading input file
+Progress: Adding intel_niosv_m_0 [intel_niosv_m 1.0.0]
+Progress: Parameterizing module intel_niosv_m_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: nios_test.intel_niosv_m_0: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: nios_test: Generating nios_test "nios_test" for QUARTUS_SYNTH
+Info: intel_niosv_m_0: "nios_test" instantiated intel_niosv_m "intel_niosv_m_0"
+Info: hart: "intel_niosv_m_0" instantiated intel_niosv_m_unit "hart"
+Info: timer_module: "intel_niosv_m_0" instantiated intel_niosv_timer_msip "timer_module"
+Info: dbg_mod: "intel_niosv_m_0" instantiated intel_niosv_m_dbg_mod "dbg_mod"
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_synchronizer.v
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_controller.v
+Info: Reusing file L:/Projects/nios_test/nios_test/synthesis/submodules/altera_reset_controller.sdc
+Info: irq_mapper: "intel_niosv_m_0" instantiated altera_irq_mapper "irq_mapper"
+Info: nios_test: Done "nios_test" with 6 modules, 32 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

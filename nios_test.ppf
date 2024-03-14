@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="intel_niosv_m_0"
+ megafunction_name="INTEL_NIOSV_M"
+ intended_family="Cyclone V"
+ specifies="all_ports">
+ <global>
+  <pin name="clk" direction="input" scope="external" />
+  <pin name="reset_reset" direction="input" scope="external" />
+  <pin name="platform_irq_rx_irq[15..0]" direction="input" scope="external" />
+  <pin
+     name="instruction_manager_awaddr[31..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_awsize[2..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_awprot[2..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_awvalid"
+     direction="output"
+     scope="external" />
+  <pin name="instruction_manager_awready" direction="input" scope="external" />
+  <pin
+     name="instruction_manager_wdata[31..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_wstrb[3..0]"
+     direction="output"
+     scope="external" />
+  <pin name="instruction_manager_wlast" direction="output" scope="external" />
+  <pin name="instruction_manager_wvalid" direction="output" scope="external" />
+  <pin name="instruction_manager_wready" direction="input" scope="external" />
+  <pin
+     name="instruction_manager_bresp[1..0]"
+     direction="input"
+     scope="external" />
+  <pin name="instruction_manager_bvalid" direction="input" scope="external" />
+  <pin name="instruction_manager_bready" direction="output" scope="external" />
+  <pin
+     name="instruction_manager_araddr[31..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_arsize[2..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_arprot[2..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="instruction_manager_arvalid"
+     direction="output"
+     scope="external" />
+  <pin name="instruction_manager_arready" direction="input" scope="external" />
+  <pin
+     name="instruction_manager_rdata[31..0]"
+     direction="input"
+     scope="external" />
+  <pin
+     name="instruction_manager_rresp[1..0]"
+     direction="input"
+     scope="external" />
+  <pin name="instruction_manager_rvalid" direction="input" scope="external" />
+  <pin name="instruction_manager_rready" direction="output" scope="external" />
+  <pin name="data_manager_awaddr[31..0]" direction="output" scope="external" />
+  <pin name="data_manager_awsize[2..0]" direction="output" scope="external" />
+  <pin name="data_manager_awprot[2..0]" direction="output" scope="external" />
+  <pin name="data_manager_awvalid" direction="output" scope="external" />
+  <pin name="data_manager_awready" direction="input" scope="external" />
+  <pin name="data_manager_wdata[31..0]" direction="output" scope="external" />
+  <pin name="data_manager_wstrb[3..0]" direction="output" scope="external" />
+  <pin name="data_manager_wlast" direction="output" scope="external" />
+  <pin name="data_manager_wvalid" direction="output" scope="external" />
+  <pin name="data_manager_wready" direction="input" scope="external" />
+  <pin name="data_manager_bresp[1..0]" direction="input" scope="external" />
+  <pin name="data_manager_bvalid" direction="input" scope="external" />
+  <pin name="data_manager_bready" direction="output" scope="external" />
+  <pin name="data_manager_araddr[31..0]" direction="output" scope="external" />
+  <pin name="data_manager_arsize[2..0]" direction="output" scope="external" />
+  <pin name="data_manager_arprot[2..0]" direction="output" scope="external" />
+  <pin name="data_manager_arvalid" direction="output" scope="external" />
+  <pin name="data_manager_arready" direction="input" scope="external" />
+  <pin name="data_manager_rdata[31..0]" direction="input" scope="external" />
+  <pin name="data_manager_rresp[1..0]" direction="input" scope="external" />
+  <pin name="data_manager_rvalid" direction="input" scope="external" />
+  <pin name="data_manager_rready" direction="output" scope="external" />
+  <pin name="timer_sw_agent_write" direction="input" scope="external" />
+  <pin
+     name="timer_sw_agent_writedata[31..0]"
+     direction="input"
+     scope="external" />
+  <pin
+     name="timer_sw_agent_byteenable[3..0]"
+     direction="input"
+     scope="external" />
+  <pin
+     name="timer_sw_agent_address[5..0]"
+     direction="input"
+     scope="external" />
+  <pin name="timer_sw_agent_read" direction="input" scope="external" />
+  <pin
+     name="timer_sw_agent_readdata[31..0]"
+     direction="output"
+     scope="external" />
+  <pin
+     name="timer_sw_agent_readdatavalid"
+     direction="output"
+     scope="external" />
+  <pin name="dm_agent_write" direction="input" scope="external" />
+  <pin name="dm_agent_writedata[31..0]" direction="input" scope="external" />
+  <pin name="dm_agent_address[15..0]" direction="input" scope="external" />
+  <pin name="dm_agent_read" direction="input" scope="external" />
+  <pin name="dm_agent_readdata[31..0]" direction="output" scope="external" />
+  <pin name="dm_agent_readdatavalid" direction="output" scope="external" />
+  <pin name="dm_agent_waitrequest" direction="output" scope="external" />
+ </global>
+</pinplan>
